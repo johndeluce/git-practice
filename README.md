@@ -18,3 +18,5 @@ Learning Git and GitHub for the first time!
 
 ## Work in Progress
 Currently adding a new feature
+
+## Added from GitHub
