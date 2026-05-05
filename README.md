@@ -28,3 +28,6 @@ Currently adding a new feature
 
 ## Contributors
 - Kamal
+
+# Testing main branch protections
+This should not be able to be pushed to main without approval and a comment
