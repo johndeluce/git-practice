@@ -4,7 +4,7 @@
     `Ctrl+Shift+G`
 
 2. Open Terminal
-    `Ctrl+``
+    `Ctrl+` `
 
 3. Command Palette
     `Ctrl+Shift+P`
