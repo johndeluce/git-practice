@@ -9,6 +9,9 @@ def add(a,b):
 def subtract(a,b):
     return a - b
 
+def square(a):
+    """Return the square of a number"""
+    return a ** 2
 
 if __name__ == "__main__":
     print("Calculator loaded!")
@@ -30,9 +33,7 @@ def divide(a,b):
 def power(a, b):
     return a ** b
 
-def square(a):
-    """Return the square of a number"""
-    return a ** 2
+
 
 print("Calculator ready!")
 
