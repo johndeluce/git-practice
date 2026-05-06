@@ -1,13 +1,13 @@
-# Calculator - Updated from GitHub Web Interface
-
-# Simple Calculator
+"""This is a simple calculator module that provides basic operations."""
 
 
 def add(a, b):
+    """Return the sum of two numbers"""
     return a + b
 
 
 def subtract(a, b):
+    """Return the difference of two numbers"""
     return a - b
 
 
@@ -30,16 +30,19 @@ if __name__ == "__main__":
 
 
 def multiply(a, b):
+    """Return the product of two numbers"""
     return a * b
 
 
 def divide(a, b):
+    """Return the quotient of two numbers"""
     if b == 0:
         return "Error: Cannot divide by zero"
     return a / b
 
 
 def power(a, b):
+    """Return a raised to the power of b"""
     return a**b
 
 
@@ -53,7 +56,7 @@ print("Calculator ready!")
 
 # Work in progress
 def new_feature():
-    pass
+    """A new feature under development"""
 
 
 # Critical fix
