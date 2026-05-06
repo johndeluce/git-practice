@@ -2,20 +2,24 @@
 
 # Simple Calculator
 
-def add(a,b):
+
+def add(a, b):
     return a + b
 
 
-def subtract(a,b):
+def subtract(a, b):
     return a - b
+
 
 def square(a):
     """Return the square of a number"""
-    return a ** 2
+    return a**2
+
 
 def cube(a):
     """Return the cube of a number"""
-    return a ** 3
+    return a**3
+
 
 if __name__ == "__main__":
     print("Calculator loaded!")
@@ -24,27 +28,32 @@ if __name__ == "__main__":
     print(f"5 squared = {square(5)}")
     print(f"3 cubed = {cube(3)}")
 
-def multiply(a,b):
+
+def multiply(a, b):
     return a * b
 
 
-def divide(a,b):
+def divide(a, b):
     if b == 0:
         return "Error: Cannot divide by zero"
-    return a/b
+    return a / b
 
 
 def power(a, b):
-    return a ** b
+    return a**b
+
 
 def percentage(value, percent):
     """Calculate percentage of a value"""
     return (value * percent) / 100
 
+
 print("Calculator ready!")
+
 
 # Work in progress
 def new_feature():
     pass
+
 
 # Critical fix
