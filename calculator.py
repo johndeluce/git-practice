@@ -1,6 +1,4 @@
-# Calculator - Updated from GitHub Web Interface
-
-# Simple Calculator
+"""This is a simple calculator module that provides basic arithmetic operations and some additional functions."""
 
 
 def add(a, b):
